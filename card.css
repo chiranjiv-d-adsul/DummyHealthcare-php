@@ -1,0 +1,118 @@
+
+
+.underline{
+    text-decoration: none;
+  }
+  .heading{
+    background-color: black;
+    color:white;
+  }
+
+
+#bt1{
+    background:#4c95d0;
+    background-image: -webkit-linear-gradient(top, #25aab4);
+    background-image: -moz-linear-gradient(top, #256895);
+    background-image: -ms-linear-gradient(top, #3886b3);
+    background-image: -o-linear-gradient(top, #3994bb);
+    background-image: linear-gradient(to bottom, #4ba8d3);
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    box-shadow:3px 3px 1px rgb(19, 22, 61);
+  }
+
+a{
+    text-decoration: none;
+
+
+}
+#bt1:hover a{
+
+color: white;
+}
+.hos-services{
+    border-radius: 25px;
+    box-shadow: 3px 3px 1px rgb(26, 29, 85);
+  }
+  .training-sectionservices{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #8cbfce;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(/images/grbg.jpg);
+    background-image:cover;
+    }
+
+    .training-sectionservices h1{
+    text-align: center;
+    padding: 25px 0px;
+
+    }
+    .containerservices{
+
+        display:grid;
+        grid-template-columns: repeat(auto-fit , minmax(30rem, 1fr));
+        gap:2rem;
+
+      }
+
+
+
+    .hos-services{
+      border-radius: 25px;
+      box-shadow: 3px 3px 1px rgb(26, 89, 172);
+    }
+    .CMS-item{
+        border-radius: 25px ;
+        flex-basis: 31%;
+        margin: 10px 0px;
+        text-align: center;
+        padding: 10px 0px;
+        background: white;
+        box-shadow: 5px 5px 3px rgb(15, 38, 56) ;
+
+
+    }
+    .CMS-item h3{
+        padding: 10px 0px ;
+        font-size: 20px;
+
+    }
+    .CMS-item p{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .CMS-item:hover{
+      background-color:rgb(72, 142, 221);
+
+    }
+    .CMS-item:hover h3, .CMS-item:hover p{
+        color: white;
+
+    }
+    .CMS-item:hover button{
+        background: white;
+
+    }
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width:1200px){
+
+
+
+     .CMS-item{
+       margin:10px;
+
+    }
+}
